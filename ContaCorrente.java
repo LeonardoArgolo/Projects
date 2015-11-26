@@ -10,7 +10,9 @@ public class ContaCorrente extends Conta {
 		valor -= 0.1;
 		super.depositar(valor);
 	}
-	
+	public void sacar(double valor){
+		valor-=valor-10.0	
+	}
 	
 	
 }
